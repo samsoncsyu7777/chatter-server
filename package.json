@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -r dotenv/config",
+    "dev": "nodemon ./bin/www",
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie": "^0.4.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "http-errors": "~1.8.0",
+    "mongoose": "^5.12.8",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.6",
+    "stripe": "^8.194.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.2.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "14.0"
+  }
+}
